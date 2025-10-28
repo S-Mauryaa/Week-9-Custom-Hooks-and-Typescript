@@ -1,7 +1,7 @@
 interface User{
     firstName:string;
     lastName:string;
-    // email:string;
+    email?:string; //User  can pass it and  if no need then they will not pass it
     age:number;
 }
 function isLegal(user:User){
@@ -19,5 +19,6 @@ function greet(user:User){
 isLegal({
     firstName:"Saurabh",
     lastName:"Maurya",
-    age:20
+    age:20,
+    email:"saurabh@gmail.com"
 })
