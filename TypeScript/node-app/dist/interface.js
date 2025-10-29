@@ -14,6 +14,7 @@ function greet(user) {
 isLegal({
     firstName: "Saurabh",
     lastName: "Maurya",
-    age: 20
+    age: 20,
+    email: "saurabh@gmail.com"
 });
 //# sourceMappingURL=interface.js.map
